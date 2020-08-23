@@ -1,0 +1,12 @@
+Trained for 100 epochs through 2 books for net 1, 3 for net 2, and so on
+1. Coming Attraction
+2. Confidence Game
+3. The Early Short Fiction of Edith Wharton, Part 2 (of 10)
+4. The Real Hard Sell
+5. The Grey Woman and other Tales
+6. Donovan Pasha And Some People Of Egypt, Volume 3.
+
+dataset taken from kaggle:
+https://www.kaggle.com/shubchat/1002-short-stories-from-project-guttenberg
+
+file is called "stories.csv"
