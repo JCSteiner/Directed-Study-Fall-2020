@@ -40,7 +40,7 @@ for _ in range(10):
     cost = 0
     pred = model.fwdPass(x)
     cost += model.bkwdPass(pred, targets)
-    model.step(0.1, 1)
+    model.step(0.01, 1)
     print("Cost:", cost)
 pred = model.fwdPass(x)
 print("Predicted:", np.argmax(pred), "Actual:", targets)

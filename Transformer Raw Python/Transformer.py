@@ -254,12 +254,23 @@ class Transformer():
 
             self.dL_dQueries = np.zeros_like(self.blockQueries[-block][-1])
             self.dL_dKeys    = np.zeros_like(self.blockKeys[-block][-1])
-            self.dL_dValues  = np.zeros_like(self.blockValues[-block][-1])
+            self.dL_dValues  = dL_dValueOut
 
-            for q, k, v in zip(self.blockQueries[-block], self.blockKeys[-block], self.blockValues[-block]):
-                self.dL_dQueries += k * v * dL_dValueOut
-                self.dL_dKeys += q * v * dL_dValueOut
-                self.dL_dValues += q * k * dL_dValueOut
+            for i in range(len(self.weights)):
+                q = self.blockQueries[-block]
+                k = self.blockKeys[-block]
+                v = self.blockValues[-block]
+                sumK = np.zeros_like(k[i])
+                sumQ = np.zeros_like(q[i])
+                for t in range(len(k)):
+                    sumK += k[t] * self.weights[i][t]
+                    sumQ += q[t] * self.weights[t][i]
+
+                self.dL_dQueries += v[i] * sumK
+                self.dL_dKeys += v[i] * sumQ
+
+            self.dL_dQueries *= dL_dValueOut
+            self.dL_dKeys *= dL_dValueOut
 
             self.dL_dQueryWeights = np.zeros_like(self.queryMats[-block])
             self.dL_dKeyWeights   = np.zeros_like(self.keyMats[-block])
