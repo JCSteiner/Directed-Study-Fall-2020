@@ -1,0 +1,48 @@
+/84/121123/
+/84/121550/
+/174/50561/
+/174/84280/
+/174/168635/
+/251/118436/
+/251/136532/
+/251/137823/
+/422/122949/
+/652/129742/
+/652/130726/
+/652/130737/
+/777/126732/
+STOP
+1272 | M | dev-clean        | 8.02  | John Rose
+1462 | F | dev-clean        | 8.04  | E. Tavano
+1673 | F | dev-clean        | 8.07  | Tonia
+1919 | F | dev-clean        | 8.17  | nprigoda
+1988 | F | dev-clean        | 8.16  | Ransom
+1993 | F | dev-clean        | 8.11  | Wendy Belcher
+2035 | F | dev-clean        | 8.11  | Sharon Bautista
+2078 | M | dev-clean        | 8.03  | Kathy Caver
+2086 | M | dev-clean        | 8.04  | Nicodemus
+2277 | F | dev-clean        | 8.01  | zinniz
+2412 | F | dev-clean        | 8.06  | calystra
+2428 | M | dev-clean        | 8.02  | Stephen Kinford
+2803 | M | dev-clean        | 8.20  | aquielisunari
+2902 | M | dev-clean        | 8.10  | dexter
+3000 | M | dev-clean        | 8.03  | Brian von Dedenroth
+3081 | F | dev-clean        | 8.00  | Renata
+3170 | M | dev-clean        | 8.10  | VOICEGUY
+3536 | F | dev-clean        | 8.15  | Arielle Lipshaw
+3576 | F | dev-clean        | 8.00  | JudyGibson
+3752 | M | dev-clean        | 8.06  | Mark Welch
+3853 | F | dev-clean        | 8.05  | M. Bertke
+5338 | F | dev-clean        | 8.07  | S R Colon
+5536 | M | dev-clean        | 8.13  | David Mix
+5694 | M | dev-clean        | 8.01  | Winston Tharp
+5895 | F | dev-clean        | 8.02  | iamartin
+6241 | M | dev-clean        | 8.05  | badey
+6295 | M | dev-clean        | 8.04  | Michael Packard
+6313 | F | dev-clean        | 8.17  | Jennifer Wiginton
+6319 | F | dev-clean        | 8.01  | thestorygirl
+6345 | F | dev-clean        | 8.07  | Jean Bascom
+7850 | F | dev-clean        | 8.06  | Jill Engle
+7976 | M | dev-clean        | 8.13  | JenniferRutters
+8297 | M | dev-clean        | 8.04  | David Mecionis
+8842 | F | dev-clean        | 8.10  | Mary J
